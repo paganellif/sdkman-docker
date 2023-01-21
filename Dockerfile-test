@@ -1,0 +1,4 @@
+FROM sdkman-client:test
+
+RUN sdk install java 17.0.5-tem
+ENV PATH=/root/.sdkman/candidates/java/current/bin:$PATH
